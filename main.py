@@ -70,9 +70,6 @@ df['tweet'] = df['tweet'].apply(lambda x: remove_punctuation(x))
 # print(df)
 
 # implement K-means clustering
-'''
-- init centroids
-'''
 
 class KMeans:
 
